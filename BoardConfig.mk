@@ -88,3 +88,5 @@ TW_INCLUDE_CRYPTO_SAMSUNG := true
 #TW_NEVER_UNMOUNT_SYSTEM := true
 #TARGET_USES_LOGD := true
 #TWRP_INCLUDE_LOGCAT := true
+add_lunch_combo twrp_j2corelte-eng
+add_lunch_combo twrp_j2corelte-userdebug
