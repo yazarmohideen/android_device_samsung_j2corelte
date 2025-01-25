@@ -7,7 +7,7 @@ PRODUCT_RELEASE_NAME := j2corelte
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
 	charger_res_images \
@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/boot.img:boot.img
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_j2corelte
+PRODUCT_NAME := twrp_j2corelte
 PRODUCT_DEVICE := j2corelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
